@@ -1,0 +1,64 @@
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #0077cc;
+}
+
+.score-summary {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.score-box {
+    margin: 10px auto;
+    padding: 20px;
+    background: #0077cc;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.score-breakdown {
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+h3, h4 {
+    color: #0077cc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #555;
+}
